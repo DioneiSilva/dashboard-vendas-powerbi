@@ -1,6 +1,10 @@
-# 📊 Dashboard de Vendas - Power BI
+# 📊 Dashboard de Vendas no Power BI
+
+Projeto prático de análise de vendas com foco em geração de insights para tomada de decisão.
 
 ![Dashboard](dashboard-vendas-powerbi.png)
+
+---
 
 ## 🎯 Objetivo
 Construir um dashboard interativo para análise de vendas, permitindo identificar desempenho por cidade e evolução ao longo do tempo.
@@ -21,10 +25,17 @@ Construir um dashboard interativo para análise de vendas, permitindo identifica
 
 ---
 
-## 🧠 Tecnologias utilizadas
+## 🧠 Técnicas aplicadas
 - Power BI
-- DAX
+- Tratamento de dados (Power Query)
 - Modelagem de dados
+- Criação de medidas em DAX
+
+---
+
+## 📌 Exemplos de DAX
+- Total Faturamento = SUM(Faturamento)
+- Quantidade Vendida = SUM(Qtd.Vendida)
 
 ---
 
